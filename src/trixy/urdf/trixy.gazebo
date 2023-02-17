@@ -63,7 +63,7 @@
   <gazebo reference="camara_trasera">
     <sensor type="camera" name="camara_trasera">
       <update_rate>30.0</update_rate>
-      <camera name="head">
+      <camera name="head2">
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
           <width>800</width>
@@ -80,7 +80,7 @@
         <updateRate>0.0</updateRate>
         <cameraName>camara_trasera</cameraName>
         <imageTopicName>rgb/camara_trasera_image_raw</imageTopicName>
-        <cameraInfoTopicName>rgb/camara_trasera_camera_info</cameraInfoTopicName>
+        <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
         <frameName>camara_trasera</frameName>
         <hackBaseline>0.07</hackBaseline>
         <distortionK1>0.0</distortionK1>
